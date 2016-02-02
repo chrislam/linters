@@ -8,6 +8,8 @@ It is derived from the common rules found within [stylelint-config-standard](htt
 
 It favours flexibility over strictness for things like multi-line lists and single-line rulesets, and tries to avoid potentially divisive rules.
 
+This `.stylelintrc` required `stylelint` version **4+**
+
 ## Installation
 
 #### System wide
