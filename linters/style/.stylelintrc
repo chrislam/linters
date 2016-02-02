@@ -1,0 +1,77 @@
+{
+    rules: {
+        // color
+        "color-no-invalid-hex": true,
+
+        // number
+        "number-no-trailing-zeros": true,
+
+        // function
+        "function-comma-newline-after": ["always-multi-line", {warn: true}],
+        "function-comma-space-after": ["always-single-line", {warn: true}],
+        "function-comma-space-before": "never",
+        "function-parentheses-newline-inside": ["always-multi-line", {warn: true}],
+        "function-parentheses-space-inside": ["never-single-line", {warn: true}],
+        "function-whitespace-after": "always",
+        "function-linear-gradient-no-nonstandard-direction": true,
+        
+
+        // value list
+        "value-list-comma-newline-after": ["always-multi-line", {warn: true}],
+        "value-list-comma-space-after": ["always-single-line", {warn: true}],
+        "value-list-comma-space-before": ["never", {warn: true}],
+
+        // declaration
+        "declaration-block-semicolon-newline-after": "always-multi-line",
+        "declaration-block-semicolon-space-after": "always-single-line",
+        "declaration-block-semicolon-space-before": "never",
+        "declaration-block-single-line-max-declarations": 1,
+        "declaration-colon-newline-after": "always-multi-line",
+        "declaration-colon-space-after": "always-single-line",
+        "declaration-colon-space-before": "never",
+
+        // block
+        "block-closing-brace-newline-after": "always",
+        "block-closing-brace-newline-before": "always-multi-line",
+        "block-opening-brace-newline-after": "always-multi-line",
+        "block-no-empty": true,
+        
+        // selector
+        "selector-combinator-space-after": "always",
+        "selector-combinator-space-before": "always",
+
+        // selector list
+        "selector-list-comma-space-before": "never",
+
+        // rule
+        "rule-no-duplicate-properties": true,
+        "rule-non-nested-empty-line-before": [ "always-multi-line", {
+            ignore: ["after-comment"],
+        }],
+        "rule-trailing-semicolon": "always",
+
+        // media feature
+        "media-feature-colon-space-after": "always",
+        "media-feature-colon-space-before": "never",
+
+        // media query
+        "media-query-list-comma-newline-after": ["always-multi-line", {warn: true}],
+        "media-query-list-comma-space-after": ["always-single-line", {warn: true}],
+        "media-query-list-comma-space-before": "never",
+
+        // at rule
+        "at-rule-empty-line-before": [ "always", {
+            except: [ "blockless-group", "first-nested" ],
+            ignore: ["after-comment"],
+        }],
+
+        // comment
+        "comment-empty-line-before": [ "always", {
+            except: ["first-nested"],
+            ignore: ["stylelint-commands"],
+        }],
+
+        // general
+        "max-empty-lines": 1
+    }
+}
