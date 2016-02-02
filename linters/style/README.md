@@ -23,7 +23,7 @@ curl https://raw.githubusercontent.com/gladeye/linters/master/linters/style/.sty
 
 #### Per project
 
-Place this [.stylelintrc](https://raw.githubusercontent.com/gladeye/linters/style/.stylelintrc) at the root of your project folder
+Place this [.stylelintrc](https://raw.githubusercontent.com/gladeye/linters/master/linters/style/.stylelintrc) at the root of your project folder
 
 ## Policy
 
