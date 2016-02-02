@@ -16,7 +16,7 @@ Running this command will place the `.stylelintrc` file in your home folder, and
 
 ```
 npm install -g stylelint
-curl https://raw.githubusercontent.com/gladeye/linters/style/.stylelintrc ~/
+curl https://raw.githubusercontent.com/gladeye/linters/master/linters/style/.stylelintrc > ~/.stylelintrc
 ```
 
 #### Per project
