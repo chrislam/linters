@@ -11,7 +11,7 @@
         "function-parentheses-space-inside": ["never-single-line", {"warn": true}],
         "function-whitespace-after": "always",
         "function-linear-gradient-no-nonstandard-direction": true,
-        
+
         "value-list-comma-newline-after": ["always-multi-line", {"warn": true}],
         "value-list-comma-space-after": ["always-single-line", {"warn": true}],
         "value-list-comma-space-before": ["never", {"warn": true}],
@@ -28,7 +28,7 @@
         "block-closing-brace-newline-before": "always-multi-line",
         "block-opening-brace-newline-after": "always-multi-line",
         "block-no-empty": true,
-        
+
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
 
@@ -57,6 +57,8 @@
             "ignore": ["stylelint-commands"]
         }],
 
-        "max-empty-lines": 1
+        "max-empty-lines": 1,
+
+        "indentation": 4
     }
 }
